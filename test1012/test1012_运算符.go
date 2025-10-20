@@ -41,7 +41,7 @@ func main() {
 
 	fmt.Println("d&e=", d&e) //000
 	fmt.Println("d|e=", d|e) //111
-	fmt.Println("d^e=", d^e) //111
+	fmt.Println("d^e=", d^e) //111 俩位不一样则为1
 	//左移N位：就是乘以2得N次方  右移N位：就是除以2的N次方
 	fmt.Println("d<<e=", d<<e) //5乘以2得2次方    20
 	fmt.Println("d>>e=", d>>e) //5除以2的2次方    1
